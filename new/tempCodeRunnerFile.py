@@ -1,1 +1,3 @@
-0 + sumPositive(n + 1)
+
+text = input("Enter text: ")
+print(text)
