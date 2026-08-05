@@ -34,5 +34,21 @@ storedSplit = anotherSplit.split()
 print("Stored Splited " + str(storedSplit))  
 print("First element is : " + storedSplit[0])
 
+price = 7.5
+with_tax = price * 1.09
+print(price, with_tax)
+print("Base price: ${:.2f}. With Tax: ${:.2f}\n".format(price, with_tax))
 
-# print(split[1])
+
+print("\n----- Format methods ------\n")
+
+name = "Prince"
+age = 20
+language = "Python"
+print("My name is {} and I am {} years old. I am learning {}".format(name, age, language))
+
+def to_celsius(x):
+  return (x-32)*5/9
+
+for x in range(0,101,10):
+  print("{:>3} F | {:>6.2f} C".format(x, to_celsius(x)))
