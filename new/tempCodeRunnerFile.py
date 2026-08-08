@@ -1,3 +1,9 @@
+x = ["Now", "we", "are", "cooking!"]   # this is list
+print(type(x))
 
-text = input("Enter text: ")
-print(text)
+for ar in x:
+    print(ar)
+
+
+y = {"Now", "we", "are", "cooking!"}   # this is also list
+print(type(y))
