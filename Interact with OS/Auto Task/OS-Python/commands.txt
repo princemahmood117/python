@@ -1,0 +1,17 @@
+// to open a file and after print the lines in upper-letter, close it
+
+with open("scripts.txt") as file:
+...     for line in file:
+...         print(line.upper())  # here python makes extra empty line between the lines
+            print(ine.strip().upper())  # removes extra line between the lines
+
+
+// to open a file and write into it and then close it
+// by default file is opened with "read" mode so we dont need to pass argument to it
+
+
+modes = 
+    r --> read
+    w --> write
+    a --> append
+    r+ --> read + write
