@@ -13,6 +13,12 @@ print("Hello World!")
     # 2. #!/usr/bin/env python3
     # 3. ctrl+x to save, then press enter to save the file with name.
     # 4. now in terminal, type "chmod +x file_name.py"  to save it as executable file
+
     # 5. now run command "./hello.py"  -->  and will see the code is executed 
     
     # for virtual environment, we can use the command "python3 -m venv env_name" to create a virtual environment, and then activate it using "source env_name/bin/activate" on Linux/Mac or "env_name\Scripts\activate" on Windows. To deactivate the virtual environment, simply type "deactivate".
+
+    # 4. now run command "./hello.py"  -->  and will see the code is executed 
+
+    # for virtual environment, we can use the command "python3 -m venv env_name" to create a virtual environment, and then activate it using "source env_name/bin/activate" on Linux/Mac or "env_name\Scripts\activate" on Windows. To deactivate the virtual environment, simply type "deactivate".
+
